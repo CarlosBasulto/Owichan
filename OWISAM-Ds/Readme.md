@@ -46,9 +46,13 @@ OWISAM-DS/
 ## 🛠️ Parámetros disponibles
 
 --time:	Tiempo de escaneo en segundos (default 15)	--time 30
+
 --dry-run	Simula sin enviar paquetes	--dry-run
+
 --count	Paquetes deauth por par AP–cliente (50)	--count 100
+
 --interval	Intervalo entre envíos en segundos (0.1)	--interval 0.05
+
 --report	Ruta para guardar informe .json o .csv	--report report.csv
 
 
