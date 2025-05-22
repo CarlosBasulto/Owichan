@@ -42,7 +42,6 @@ pip install scapy
 
 ## Ejemplo de salida
 
-```bash
 BSSID: 00:11:22:33:44:55
 SSID: MOVISTAR_1234
 Canal: 6
