@@ -1,0 +1,85 @@
+Metodología abierta de evaluación de seguridad inalámbrica OWISAM
+Introducción
+La seguridad en redes inalámbricas es un campo esencial dentro de la seguridad informática moderna. La facilidad de acceso, la movilidad y la proliferación de dispositivos hacen que las redes wireless sean especialmente vulnerables. Para abordar estos retos, surge OWISAM (Open Wireless Security Assessment Methodology), una metodología abierta diseñada para el análisis y la evaluación de la seguridad en redes inalámbricas.
+¿Qué es OWISAM?
+OWISAM es una metodología pública y colaborativa cuyo objetivo es proporcionar un marco estructurado para identificar, analizar y mitigar los riesgos inherentes a las redes inalámbricas. Su desarrollo responde a la necesidad de contar con una guía específica, clara y profesional, que permita a los especialistas en seguridad realizar auditorías de manera eficiente y estandarizada.
+Principios Fundamentales
+OWISAM se apoya en los principios clásicos de la seguridad de la información, pero los adapta al contexto inalámbrico:
+Confidencialidad: Proteger la información transmitida por la red, evitando que personas no autorizadas accedan a ella.
+Integridad: Garantizar que los datos no sean modificados de forma indebida durante la transmisión.
+Disponibilidad: Asegurar que los servicios y recursos estén accesibles para los usuarios legítimos cuando los necesiten.
+Autenticación: Confirmar la identidad de los usuarios y dispositivos que se conectan a la red.
+No repudio: Impedir que un usuario niegue su participación en una comunicación o acción dentro de la red.
+Objetivos de OWISAM
+Estandarizar el proceso de evaluación de seguridad en redes inalámbricas.
+Facilitar la identificación de vulnerabilidades y amenazas específicas del entorno wireless.
+Proveer una guía práctica y teórica para profesionales y entusiastas de la seguridad.
+Promover la mejora continua en la protección de infraestructuras inalámbricas.
+Estructura Metodológica
+OWISAM divide la evaluación en varias fases, cada una con controles y recomendaciones específicas:
+1. Reconocimiento
+Consiste en identificar todas las redes y dispositivos presentes en el entorno. Aquí se utilizan técnicas de escaneo y mapeo para conocer la infraestructura inalámbrica, los puntos de acceso y los dispositivos conectados.
+2. Análisis de Configuración
+Se revisan las configuraciones de los puntos de acceso, routers y dispositivos cliente. Se busca detectar configuraciones inseguras, contraseñas débiles, protocolos obsoletos o servicios innecesarios habilitados.
+3. Evaluación de Protocolos
+Se analizan los protocolos de cifrado y autenticación implementados (WEP, WPA, WPA2, WPA3, etc.), evaluando su robustez y posibles vulnerabilidades. Esta fase es crucial, ya que muchos ataques se aprovechan de protocolos inseguros o mal configurados.
+4. Pruebas de Penetración
+En esta etapa se simulan ataques controlados para identificar debilidades explotables. Se evalúa la resistencia de la red ante intentos de acceso no autorizado, intercepción de datos, ataques de denegación de servicio, entre otros.
+5. Reporte y Recomendaciones
+Finalmente, se documentan todos los hallazgos, riesgos y vulnerabilidades detectados, junto con recomendaciones concretas para mitigar cada uno de ellos. El reporte debe ser claro y útil para la toma de decisiones.
+Beneficios de OWISAM
+Homogeneización: Permite que las evaluaciones sean comparables entre diferentes organizaciones y equipos.
+Transparencia: Al ser una metodología abierta, cualquier profesional puede consultarla, aplicarla y contribuir a su mejora.
+Actualización constante: OWISAM se adapta a las nuevas amenazas y tecnologías, manteniéndose vigente en un entorno en constante cambio.
+Formación: Sirve como base para la capacitación de profesionales en seguridad wireless.
+Aplicaciones Prácticas
+OWISAM se utiliza tanto en auditorías de seguridad internas como externas, en empresas de todos los tamaños, instituciones educativas y organismos públicos. Su enfoque modular permite adaptarla a distintos escenarios, desde redes domésticas hasta grandes infraestructuras empresariales.
+
+
+Top 10: principales riesgos inalámbricos
+
+Código
+Riesgo descrito
+OWISAM‑TR‑001
+Redes abiertas sin cifrado
+OWISAM‑TR‑002
+Uso de cifrado obsoleto (WEP)
+OWISAM‑TR‑003
+Generación débil de claves (WEP/WPA/WPS)
+OWISAM‑TR‑004
+Contraseñas vulnerables (diccionario)
+OWISAM‑TR‑005
+Métodos de autenticación inseguros (LEAP, PEAP‑MD5…)
+OWISAM‑TR‑006
+WPS habilitado, vulnerable a ataques
+OWISAM‑TR‑007
+Access Points no autorizados
+OWISAM‑TR‑008
+Portales cautivos con seguridad deficiente
+OWISAM‑TR‑009
+Clientes que se conectan a redes inseguras
+OWISAM‑TR‑010
+Cobertura demasiado extensa exigiendo control físico
+
+
+
+CWSS: puntuación del riesgo
+OWISAM adopta el CWSS (Common Wireless Security Scoring), una adaptación del CVSS, con dos métricas principales:
+Cobertura de red (Network Coverage): baja, media o alta según la proximidad necesaria para atacar
+
+
+Credenciales (Credentials): desde predecible hasta muy compleja, evaluando la facilidad de acceso.
+
+
+Esto facilita una valoración objetiva y reproducible del riesgo inalámbrico.
+
+Proceso típico de evaluación OWISAM
+Descubrimiento de redes y APs.
+
+Análisis de configuración, autenticación, cifrado y claves.
+
+Evaluación de clientes conectados y su comportamiento.
+
+Verificación de cobertura física y posible exposición.
+
+Asignación de riesgo usando CWSS y detección continua de cambios (manual y/o automatizado).
